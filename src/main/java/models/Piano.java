@@ -5,6 +5,7 @@ public class Piano extends Instrument  {
     private Integer keys;
 
     public Piano(Integer keys){
+        super("Black", "Wood", "Grand Piano", "Keyboard");
         this.keys = keys;
     }
 

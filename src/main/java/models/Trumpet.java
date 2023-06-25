@@ -5,6 +5,7 @@ public class Trumpet extends Instrument {
     private Integer valves;
 
     public Trumpet(Integer valves){
+        super("Silver", "Metal", "Piccolo", "Brass");
         this.valves = valves;
     }
 
